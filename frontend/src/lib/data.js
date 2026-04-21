@@ -189,6 +189,22 @@ export const PRODUCT_CATEGORIES = [
         image:
           "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/4lnoscx5_Die-Casting-Mold-2.jpg",
       },
+      {
+        name: "Open Aluminium HPDC Mould",
+        tag: "MOULD // HPDC",
+        image: "/generated/diecasting_mould_1.png",
+      },
+      {
+        name: "Multi-Slide Zinc Die Mould",
+        tag: "MOULD // ZINC",
+        image: "/generated/diecasting_mould_2.png",
+      },
+      {
+        name: "3D CAD — Mould Assembly",
+        tag: "CAD // EXPLODED VIEW",
+        image: "/generated/diecasting_mould_3d.png",
+        span: "sm:col-span-2 sm:row-span-1",
+      },
     ],
   },
   {

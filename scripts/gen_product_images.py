@@ -10,34 +10,21 @@ OUT_DIR = "/app/frontend/public/generated"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 PROMPTS = [
-    # Aerospace backshell connectors
-    ("aerospace_backshell_1.png",
-     "A professional studio product photograph of two aerospace MIL-DTL-38999 circular backshell connectors "
-     "in anodized aluminium finish, machined threaded coupling rings, knurled texture, pin inserts visible. "
-     "Pure white background, soft shadow, catalog/industrial product photography, sharp focus, high detail, no text, no watermark."),
-    ("aerospace_backshell_2.png",
-     "Close-up studio product photograph of an aerospace connector backshell assembly with heat-shrink strain relief, "
-     "black anodized aluminium shell, triple-start threads, precision machined. Pure white background, "
-     "catalog/industrial photography, sharp detail, no text, no logos, no watermark."),
-    # PCB test jigs
-    ("pcb_test_jig_1.png",
-     "A professional photograph of an industrial bed-of-nails ICT in-circuit PCB test fixture. Transparent acrylic lid "
-     "lifted open to reveal dense array of gold-tipped spring-loaded pogo pin probes over a green PCB. "
-     "Aluminium frame base. Clean white studio background, industrial product photography, "
-     "sharp focus, no text, no watermark."),
-    ("pcb_test_jig_2.png",
-     "A professional photograph of a closed PCB functional test jig (FCT) with pneumatic clamp, aluminium profile frame, "
-     "green indicator LED, cable harness exiting the side, green PCB visible through acrylic window. "
-     "White studio background, industrial catalog photography, sharp and clean, no text, no watermark."),
-    # Conveyor plastic parts
-    ("conveyor_plastic_1.png",
-     "A professional studio product photograph of white injection-moulded plastic modular conveyor chain links "
-     "and sprocket segments scattered on a pure white seamless background. Clean engineering plastic, "
-     "subtle shadows, catalog photography, sharp focus, no text, no watermark."),
-    ("conveyor_plastic_2.png",
-     "A professional studio product photograph of black and blue injection-moulded plastic conveyor belt modules "
-     "and pitch link chain parts arranged in a technical product grid on a pure white background. Industrial engineering "
-     "polymer, matte finish, catalog photography, sharp focus, no text, no watermark."),
+    # Die-casting moulds — extra physical photos + 3D CAD render
+    ("diecasting_mould_1.png",
+     "Professional industrial product photograph of a large opened high-pressure aluminium die-casting mould on a workshop bench. "
+     "Polished steel cavity and core halves with visible runners, gating, ejector pin pattern and cooling channel plugs. "
+     "Hardened H13 tool steel with slight bluing near gates. Clean workshop background softly out of focus, "
+     "overhead studio lighting, sharp detail, catalog/industrial photography, no text, no logos, no watermark."),
+    ("diecasting_mould_2.png",
+     "Close-up photograph of a multi-slide zinc die-casting mould assembly mounted on a tool-making bench, showing core pins, "
+     "slide mechanisms, guide pillars and bushings, precision machined steel with polished cavity surfaces. "
+     "Clean neutral grey workshop backdrop, professional industrial photography, crisp focus, no text, no watermark."),
+    ("diecasting_mould_3d.png",
+     "A clean 3D CAD rendering of an aluminium die-casting mould exploded assembly on a pure white background. "
+     "Shows top half (cavity plate), bottom half (core plate), ejector plate with pins, guide pillars and bushings, "
+     "cooling channels highlighted in blue, runner and gating system in translucent silver. Isometric engineering view, "
+     "SolidWorks/Fusion-style photorealistic CAD render, soft shadows, high-resolution, no text, no dimension lines, no watermark."),
 ]
 
 
