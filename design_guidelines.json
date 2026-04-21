@@ -1,0 +1,144 @@
+{
+  "theme": "light",
+  "archetype": "Archetype 4: Swiss & High-Contrast",
+  "design_philosophy": "Precision Engineering & Technical Blueprint. A premium, objective, rigid, functional, and authoritative look suitable for a 20+ year industrial toolroom. Heavy use of 1px borders to expose the grid skeleton, generous padding, and monospaced typography for technical data.",
+  "colors": {
+    "primary": "#1F8ACB",
+    "primary_hover": "#176c9f",
+    "background": "#FFFFFF",
+    "surface": "#F8FAFC",
+    "surface_hover": "#F1F5F9",
+    "text_main": "#020617",
+    "text_muted": "#475569",
+    "border": "#E2E8F0",
+    "dark_background": "#020617",
+    "dark_surface": "#0F172A",
+    "dark_text": "#F8FAFC",
+    "dark_text_muted": "#94A3B8"
+  },
+  "typography": {
+    "headings": {
+      "family": "'Cabinet Grotesk', sans-serif",
+      "weight": "800",
+      "tracking": "tracking-tight",
+      "install_url": "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,500,400&display=swap"
+    },
+    "body": {
+      "family": "'Manrope', sans-serif",
+      "weight": "400",
+      "install_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+    },
+    "mono": {
+      "family": "'JetBrains Mono', monospace",
+      "weight": "400",
+      "usage": "Use for all numbers, statistics, specs, and small technical overlines.",
+      "install_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+    }
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "p-4, p-8, p-12, p-16, p-24, p-32",
+    "border_radius": "rounded-none or rounded-sm (maximum 4px) to maintain the rigid industrial aesthetic.",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "grid_strategy": "MODE B: 'CONTROL ROOM' GRID for Capabilities (border-collapse, 1px right/bottom borders), MODE A: 'TETRIS' GRID for Gallery (Asymmetrical layouts with varying col/row spans)."
+  },
+  "components_and_motion": {
+    "libraries": [
+      "framer-motion",
+      "lucide-react",
+      "@phosphor-icons/react",
+      "react-fast-marquee",
+      "@studio-freight/react-lenis"
+    ],
+    "animations": {
+      "hover": "Slight scale-up on images, background color shift on surfaces. Buttons use solid color fill or right-arrow slide.",
+      "scroll": "Lenis momentum scrolling (Mandatory). Staggered fade-up for grid items using Framer Motion."
+    },
+    "surfaces": "Grid Borders (The 'Technical' Look). Expose the skeleton. Containers should use border-collapse style layout where items share 1px borders (border-border)."
+  },
+  "media": {
+    "brand": {
+      "logo": "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/6xm78u05_Aerotron%20Industires%20Logo%20Final.jpg"
+    },
+    "products": [
+      {
+        "url": "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/3yduo7gb_ALUMINIUM.jpg",
+        "description": "Aluminum parts grid (Use for Hero image or main intro)",
+        "category": "hero"
+      },
+      {
+        "url": "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/f26ojmva_DC1.png",
+        "description": "Black plastic enclosure",
+        "category": "gallery"
+      },
+      {
+        "url": "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/59idt725_DC2.png",
+        "description": "Aluminum eyelet tools",
+        "category": "gallery"
+      },
+      {
+        "url": "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/zgf1z1eg_DC3.png",
+        "description": "Aluminum cross-shaped diecast part",
+        "category": "gallery"
+      },
+      {
+        "url": "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/6odp55c5_DC4.png",
+        "description": "Aluminum coupling diecast parts",
+        "category": "gallery"
+      }
+    ],
+    "backgrounds_and_b_roll": [
+      {
+        "url": "https://images.pexels.com/photos/8865189/pexels-photo-8865189.jpeg",
+        "description": "High-precision milling machine cutting a metal piece",
+        "category": "about_section"
+      },
+      {
+        "url": "https://images.pexels.com/photos/10406128/pexels-photo-10406128.jpeg",
+        "description": "CNC milling machine working on metal",
+        "category": "capabilities_bg"
+      }
+    ]
+  },
+  "page_sections": [
+    {
+      "name": "Navigation",
+      "instructions": "Crystal Glass look (backdrop-blur-xl bg-white/70) if sticky. Logo left, Links center, 'Get a Quote' button right. Use 1px bottom border."
+    },
+    {
+      "name": "Hero Section",
+      "instructions": "White background with a subtle CSS grid pattern. Huge text (text-6xl+) in Cabinet Grotesk: 'Precision Engineering. Zero Compromise.' Monospaced sub-labels. Right side features the ALUMINIUM.jpg image inside a sharp-edged 1px border container."
+    },
+    {
+      "name": "Stats Marquee",
+      "instructions": "Use react-fast-marquee. Technical monospaced typography (JetBrains Mono). '20+ YEARS EXPERIENCE', '400+ MOULDS DELIVERED', '150+ GLOBAL CLIENTS', 'ISO 9001:2015 CERTIFIED'. Divide items with a geometric symbol (e.g. + or //)."
+    },
+    {
+      "name": "Capabilities Grid",
+      "instructions": "'Control Room' grid strategy. Use plain HTML/Tailwind to create a dense border-collapse style layout. Items: Die-casting Moulds, Plastic Injection Moulds, Jigs & Fixtures, PCBA/EMS Tooling, NPD. Hover state darkens background slightly (bg-slate-50)."
+    },
+    {
+      "name": "Product Gallery",
+      "instructions": "'Tetris' Grid. Showcase the 4 uploaded DC images (DC1, DC2, DC3, DC4). Give the images a subtle background (bg-slate-100) since they are PNGs, ensuring they stand out. Images max-h-[80vh] for mobile."
+    },
+    {
+      "name": "Industries Served",
+      "instructions": "Grid of badges using Phosphor Icons. Automotive, Aerospace, Power Grid, Telecom, EV, Defense. Minimalist icons + text in JetBrains Mono or Manrope."
+    },
+    {
+      "name": "About Us",
+      "instructions": "Split layout. Left: Rich text about 20+ years of mastery. Right: The milling machine background image."
+    },
+    {
+      "name": "Contact Section",
+      "instructions": "Industrial brutalist form using Shadcn components (customized with rounded-none). Dark background section (bg-slate-950) with white text, or keep it white with heavy black borders. Fields: Name, Email, Phone, Company, Message. Blue primary CTA."
+    },
+    {
+      "name": "Footer",
+      "instructions": "Dark theme (bg-slate-950). Massive py-24 padding. Include addresses for Office and Factory. Large 'AEROTRON' watermark text in the background or at the bottom."
+    }
+  ],
+  "accessibility_and_testing": {
+    "contrast": "Ensure APCA contrast minimums. Use blue primary for CTA and accents only.",
+    "testing": "All interactive elements MUST have data-testid (e.g., data-testid='hero-cta-button', data-testid='contact-form-submit')."
+  }
+}
