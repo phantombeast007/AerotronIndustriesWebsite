@@ -75,36 +75,134 @@ export const CAPABILITIES = [
   },
 ];
 
-export const PRODUCTS = [
+export const PRODUCT_CATEGORIES = [
   {
-    name: "Aluminium Die-Cast Portfolio",
-    tag: "ALUMINIUM // HPDC",
-    image: "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/3yduo7gb_ALUMINIUM.jpg",
-    span: "lg:col-span-2 lg:row-span-2",
+    id: "plastic-enclosures",
+    code: "A",
+    title: "Plastic Enclosures",
+    tag: "INJECTION // IP-RATED",
+    description:
+      "AIS-140 telematics, IP67/IP69 field enclosures and technical housings moulded in engineering polymers.",
+    items: [
+      {
+        name: "Plastic Enclosures Portfolio",
+        tag: "PLASTIC // IP-RATED",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/ipdu2fn3_PLASTIC.png",
+        span: "sm:col-span-2 sm:row-span-2",
+      },
+      {
+        name: "Commercial Automotive Enclosure",
+        tag: "PLASTIC // AUTOMOTIVE",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/f26ojmva_DC1.png",
+      },
+    ],
   },
   {
-    name: "IP69 Plastic Enclosure",
-    tag: "PLASTIC // IP69",
-    image: "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/f26ojmva_DC1.png",
-    span: "lg:col-span-1 lg:row-span-1",
+    id: "diecast-parts",
+    code: "B",
+    title: "Die-Cast Parts",
+    tag: "HPDC // ALUMINIUM · ZINC",
+    description:
+      "High-pressure aluminium and zinc die-cast parts for automotive, power grid, appliance and aerospace applications.",
+    items: [
+      {
+        name: "Aluminium Die-Cast Portfolio",
+        tag: "ALUMINIUM // HPDC",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/3yduo7gb_ALUMINIUM.jpg",
+        span: "sm:col-span-2 sm:row-span-2",
+      },
+      {
+        name: "Gas Stove Components",
+        tag: "DIE-CAST // APPLIANCE",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/59idt725_DC2.png",
+      },
+      {
+        name: "Automotive Parts",
+        tag: "DIE-CAST // AUTOMOTIVE",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/6odp55c5_DC4.png",
+      },
+      {
+        name: "Power Grid Die-Cast Part",
+        tag: "DIE-CAST // POWER GRID",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/8i3rtsms_DC7.png",
+      },
+      {
+        name: "Structural Die-Cast Bracket",
+        tag: "DIE-CAST // STRUCTURAL",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/zgf1z1eg_DC3.png",
+      },
+      {
+        name: "Aerospace Die-Cast Component",
+        tag: "DIE-CAST // AEROSPACE",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/nz2yrk1p_Diecasting%20Part%201.png",
+      },
+      {
+        name: "Electrical Terminals",
+        tag: "PRECISION // TERMINALS",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/22ox1hij_electric%20terminals%203.png",
+      },
+      {
+        name: "Electrical Terminal Assemblies",
+        tag: "PRECISION // TERMINALS",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/kcqq6cqv_electric%20terminals%204.png",
+      },
+    ],
   },
   {
-    name: "Power Grid Linkage Components",
-    tag: "DIE-CAST // POWER GRID",
-    image: "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/59idt725_DC2.png",
-    span: "lg:col-span-1 lg:row-span-1",
+    id: "diecasting-moulds",
+    code: "C",
+    title: "Die-Casting Moulds",
+    tag: "TOOLROOM // HPDC MOULDS",
+    description:
+      "Multi-slide aluminium and zinc die-casting moulds engineered for cycle life, dimensional stability and minimal finishing.",
+    items: [
+      {
+        name: "Alu-Zinc Alloy Die-Casting Mould",
+        tag: "MOULD // ALU-ZINC",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/h08vyil6_Alu-Zinc-Alloy-Die-casting-mold.jpeg",
+        span: "sm:col-span-2 sm:row-span-2",
+      },
+      {
+        name: "Automotive Die-Casting Mould",
+        tag: "MOULD // AUTOMOTIVE",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/4lnoscx5_Die-Casting-Mold-2.jpg",
+      },
+    ],
   },
   {
-    name: "Structural Cross Housing",
-    tag: "DIE-CAST // STRUCTURAL",
-    image: "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/zgf1z1eg_DC3.png",
-    span: "lg:col-span-1 lg:row-span-1",
-  },
-  {
-    name: "Coupling Assemblies",
-    tag: "DIE-CAST // COUPLING",
-    image: "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/6odp55c5_DC4.png",
-    span: "lg:col-span-1 lg:row-span-1",
+    id: "ems-tooling",
+    code: "D",
+    title: "EMS / PCBA Tooling",
+    tag: "ELECTRONICS // FIXTURES",
+    description:
+      "Wave-solder pallets, reflow carriers, ICT fixtures and assembly jigs for high-mix electronic manufacturing lines.",
+    items: [
+      {
+        name: "PCBA Tooling & Fixtures",
+        tag: "PCBA // FIXTURES",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/y5v11g01_pcba%20tooling.png",
+        span: "sm:col-span-2 sm:row-span-2",
+      },
+      {
+        name: "Wave Solder Pallet",
+        tag: "WAVE-SOLDER // PALLET",
+        image:
+          "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/dl45hgr0_wave%20solder%20pallet.jpeg",
+      },
+    ],
   },
 ];
 

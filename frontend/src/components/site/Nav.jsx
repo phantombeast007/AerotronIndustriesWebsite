@@ -31,9 +31,9 @@ export default function Nav() {
       <div className="mx-auto max-w-[1400px] px-6 md:px-12 h-16 md:h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3" data-testid="nav-logo">
           <img src={BRAND.logo} alt="Aerotron" className="h-10 w-10 rounded-sm object-cover" />
-          <div className="hidden sm:block leading-tight">
-            <div className="font-display text-lg tracking-tight">AEROTRON</div>
-            <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-slate-500">
+          <div className="block leading-tight">
+            <div className="font-display text-base sm:text-lg tracking-tight">AEROTRON</div>
+            <div className="font-mono text-[9px] sm:text-[10px] uppercase tracking-[0.2em] text-slate-500">
               Industries
             </div>
           </div>

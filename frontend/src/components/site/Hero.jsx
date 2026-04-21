@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowDownRight } from "lucide-react";
-import { PRODUCTS } from "../../lib/data";
+import { PRODUCT_CATEGORIES } from "../../lib/data";
 
 export default function Hero() {
-  const heroImg = PRODUCTS[0].image;
+  const heroImg = PRODUCT_CATEGORIES[1].items[0].image;
   return (
     <section
       id="top"
