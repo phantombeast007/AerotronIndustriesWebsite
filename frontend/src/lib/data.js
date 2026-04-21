@@ -127,8 +127,8 @@ export const PRODUCT_CATEGORIES = [
           "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/6odp55c5_DC4.png",
       },
       {
-        name: "Power Grid Die-Cast Part",
-        tag: "DIE-CAST // POWER GRID",
+        name: "Automotive Component",
+        tag: "DIE-CAST // AUTOMOTIVE",
         image:
           "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/8i3rtsms_DC7.png",
       },
@@ -143,6 +143,16 @@ export const PRODUCT_CATEGORIES = [
         tag: "DIE-CAST // AEROSPACE",
         image:
           "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/nz2yrk1p_Diecasting%20Part%201.png",
+      },
+      {
+        name: "Aerospace Backshell Connector",
+        tag: "DIE-CAST // AEROSPACE",
+        image: "/generated/aerospace_backshell_1.png",
+      },
+      {
+        name: "Aerospace Connector Assembly",
+        tag: "DIE-CAST // AEROSPACE",
+        image: "/generated/aerospace_backshell_2.png",
       },
       {
         name: "Electrical Terminals",
@@ -201,6 +211,37 @@ export const PRODUCT_CATEGORIES = [
         tag: "WAVE-SOLDER // PALLET",
         image:
           "https://customer-assets.emergentagent.com/job_aerotron-toolroom/artifacts/dl45hgr0_wave%20solder%20pallet.jpeg",
+      },
+      {
+        name: "PCB In-Circuit Test Jig",
+        tag: "ICT // BED-OF-NAILS",
+        image: "/generated/pcb_test_jig_1.png",
+      },
+      {
+        name: "Functional Test Fixture",
+        tag: "FCT // PNEUMATIC",
+        image: "/generated/pcb_test_jig_2.png",
+      },
+    ],
+  },
+  {
+    id: "conveyor-plastics",
+    code: "E",
+    title: "Plastic Conveyor Parts",
+    tag: "INJECTION // CONVEYOR",
+    description:
+      "Injection-moulded modular conveyor links, sprockets and chain components in engineering polymers for material-handling lines.",
+    items: [
+      {
+        name: "Modular Conveyor Links",
+        tag: "PLASTIC // CONVEYOR",
+        image: "/generated/conveyor_plastic_1.png",
+        span: "sm:col-span-2 sm:row-span-2",
+      },
+      {
+        name: "Conveyor Chain Modules",
+        tag: "PLASTIC // CONVEYOR",
+        image: "/generated/conveyor_plastic_2.png",
       },
     ],
   },
